@@ -11,12 +11,12 @@ import org.junit.runner.RunWith;
         
         features = "src/test/resources/features",
         glue = "com/azsdet/vytrack/Step_Definitions",
-        plugin = {"html:target/cucumber-report.html"
-        
-        },
+     //   plugin = {"html:target/cucumber-report.html"
+    //    },
         dryRun= false,
         tags = ""
-
+        
+       
 
 )
 
