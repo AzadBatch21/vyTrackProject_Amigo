@@ -74,8 +74,8 @@ public class US_3_StepDefinitions {
 
     @When("driver should see Delete button on top and be able to click")
     public void driver_should_see_delete_button_on_top_and_be_able_to_click() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+
+
     }
 
 
