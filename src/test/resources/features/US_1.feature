@@ -1,9 +1,9 @@
-
-
+@wip
 Feature: Truck driver login feature
 
 
   Background: Authorized user is already on the login page
+
 
   Scenario Outline: Truck driver Login accessibility
 
@@ -24,6 +24,15 @@ Feature: Truck driver login feature
 
   Scenario Outline: Truck driver Login accessibility
     Given store manager or sales manager login as "<username>" and "<password>"
+    Then store manager or sales manager should be able to see eight modules
+      | Dashboards         |
+      | Fleet             |
+      | Customers         |
+      | Sales             |
+      | Activities        |
+      | Marketing         |
+      | Reports & Segments |
+      | System            |
 
     Examples:
       | username      | password |
