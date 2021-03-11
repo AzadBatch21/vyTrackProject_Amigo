@@ -12,7 +12,7 @@ public class US_4_StepDefinitions {
 
     @Then("driver should see Create Vehicle Costs on the right top and click")
     public void driver_should_see_create_vehicle_costs_on_the_right_top_and_click() {
-
+        System.out.println();
     }
 
 
