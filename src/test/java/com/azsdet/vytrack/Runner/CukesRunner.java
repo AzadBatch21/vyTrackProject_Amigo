@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         glue = "com/azsdet/vytrack/Step_Definitions",
      //   plugin = {"html:target/cucumber-report.html"
     //    },
-        dryRun= false,
+        dryRun= true,
         tags = ""
         
        
