@@ -38,7 +38,7 @@ public class US_6_StepDefinitions {
         
     }
 
-//addeed
+//added
     @And("store manager or sales manager can delete the costs,")
     public void store_manager_or_sales_manager_can_delete_the_costs() {
 
