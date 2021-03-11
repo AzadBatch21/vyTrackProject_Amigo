@@ -18,5 +18,7 @@ Feature: Truck driver login feature
       | salesManager1 | password |
       | salesManager2 | password |
 
+    # new class created
+
 
 
