@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
      //   plugin = {"html:target/cucumber-report.html"
     //    },
         dryRun= false,
-        tags = "@test"
+        tags = ""
         
        
 
