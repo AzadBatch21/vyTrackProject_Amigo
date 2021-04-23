@@ -1,5 +1,5 @@
 Feature: Driver accessibility on Vehicle Fuel Logs
-@grid
+@transmuda
   Scenario:Truck driver should be able to access Vehicle Fuel Logs
     Given Truck driver is already on the login page
     When  Truck driver login as "<username>" and "<password>"

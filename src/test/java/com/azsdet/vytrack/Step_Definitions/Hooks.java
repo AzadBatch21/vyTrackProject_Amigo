@@ -12,7 +12,7 @@ public class Hooks {
     @Before
     public void setUpScenario(){
       
-        String url = ConfigurationReader.getProperty("url");
+        String url = ConfigurationReader.getProperty("url1");
         Driver.getDriver().get(url);
      
      
