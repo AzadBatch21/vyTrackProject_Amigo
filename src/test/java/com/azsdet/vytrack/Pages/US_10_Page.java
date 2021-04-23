@@ -56,4 +56,3 @@ public class US_10_Page {
     @FindBy(xpath = "//input[@type='checkbox']")
     public WebElement selected;//for conflict
 }
-
