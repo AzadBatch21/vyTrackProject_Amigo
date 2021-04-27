@@ -54,5 +54,5 @@ public class US_10_Page {
     @FindBy(xpath = "//i[@class='fa-cog hide-text']")
     public WebElement gridSettingButton;
     @FindBy(xpath = "//input[@type='checkbox']")
-    public WebElement selected;//for conflict
+    public WebElement selected;
 }
