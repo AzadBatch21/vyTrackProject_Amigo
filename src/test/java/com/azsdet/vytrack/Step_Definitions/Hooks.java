@@ -12,7 +12,7 @@ public class Hooks {
     @Before
     public void setUpScenario(){
       
-        String url = ConfigurationReader.getProperty("url");
+        String url = ConfigurationReader.getProperty("url1");
         Driver.getDriver().get(url);
      
      
@@ -25,7 +25,7 @@ public class Hooks {
             byte[] screenShot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenShot, "image/png", scenario.getName());
         }
-        Driver.closeDriver();
+        //Driver.closeDriver();
     }
     
    
