@@ -62,7 +62,7 @@ public class US_10_StepDefinitions {
         Assert.assertEquals(expected, actual);
         System.out.println(expected);
 
-      //  us10Page.creatVehFuelLogs.click();
+      //  us10Page.creatVehFuelLogs.click();//
 
     }
 
